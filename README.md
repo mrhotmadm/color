@@ -1,4 +1,4 @@
-<h1 align="center">@mrhotmadm/<strong>color</strong></h1>
+<h1 align="center"><a href="https://npmjs.org/package/@mrhotmadm/color"@mrhotmadm/<strong>color</strong></h1>
 
 <p align="center">Easily add colors to messages in the console/terminal.</p>
 
