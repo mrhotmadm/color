@@ -1,6 +1,6 @@
 <h1 align="center">What is This?</h1>
 
-This package uses promises to pause execution, similar to Python's `time.sleep()` and Lua's `wait()`.
+Easily add colors to messages in the console/terminal.
 
 # Installation
 
@@ -8,7 +8,7 @@ You can download this package by using the command; `npm i @mrhotmadm/sleep`
 
 # Usage
 
-To get started, start by requiring the package and making a new .Instance() class.
+To get started, start by requiring the package and initializing a new class with the .Initialize() method.
 
 ```js
 const Color = require('@mrhotmadm/color');
@@ -17,14 +17,14 @@ const color = new Color.Instance();
 
 The colors currently available/included are:
 
-* <p style="color:red;">Red/Background</p>
-* <p style="color:orange;">Yellow/Background</p>
-* <p style="color:green;">Green/Background</p>
-* <p style="color:blue;">Blue/Background</p>
-* <p style="color:cyan;">Cyan/Background</p>
-* <p style="color:magenta;">Magenta/Background</p>
-* <p style="color:white;">White/Background</p>
-* <p style="color:black;">Black/Background</p>
+* Red/Background
+* Yellow/Background
+* Green/Background
+* Blue/Background
+* Cyan/Background
+* Magenta/Background
+* White/Background
+* Black/Background
 
 For font colors, just call the color as a method
 
@@ -34,7 +34,7 @@ const color = new Color.Instance();
 
 // Red
 console.log(
-   color.red('')
+   color.red('This text is red!');
 )
 ```
 
