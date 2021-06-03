@@ -1,4 +1,4 @@
-const Color = require('@mrhotmadm/color');
+const Color = require('../src/index.js');
 const color = new Color.Instance();
 
 console.log(
