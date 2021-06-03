@@ -17,14 +17,7 @@ const color = new Color.Instance();
 
 The colors currently available/included are:
 
-* Red/Background
-* Yellow/Background
-* Green/Background
-* Blue/Background
-* Cyan/Background
-* Magenta/Background
-* White/Background
-* Black/Background
+![Current Colors](/images/colors.png)
 
 For font colors, just call the color as a method
 
