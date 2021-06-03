@@ -1,4 +1,4 @@
-<h1 align="center">What is This?</h1>
+<h1 align="center">@mrhotmadm/<strong>color</strong></h1>
 
 Easily add colors to messages in the console/terminal.
 
@@ -7,6 +7,8 @@ Easily add colors to messages in the console/terminal.
 You can download this package by using the command; `npm i @mrhotmadm/sleep`
 
 # Usage
+
+All examples can be found in the **[examples directory.](https://github.com/mrhotmadm/color/tree/main/examples)**
 
 To get started, start by requiring the package and initializing a new class with the .Initialize() method.
 
@@ -25,13 +27,43 @@ For font colors, just call the color as a method
 const Color = require('@mrhotmadm/color');
 const color = new Color.Instance();
 
-// Red
+// All Colors
 console.log(
-   color.red('This text is red!');
-)
+  color.red("Red!"),
+  color.orange("Orange!"),
+  color.green("Green!"),
+  color.blue("Blue!"),
+  color.cyan("Cyan!"),
+  color.magenta("Magenta!"),
+  color.white('White!'),
+  color.black('Black!')
+);
 ```
+Result:
 
-All examples can be found in the **[examples directory.](https://github.com/mrhotmadm/color/tree/main/examples)**
+![wad](/images/color-output.png)
+
+As for background colors, it's the same thing, just add `Bg` at the end of the method name.
+
+```js
+const Color = require('@mrhotmadm/color');
+const color = new Color.Instance();
+
+// All Background Colors
+console.log(
+  color.redBg("Red!"),
+  color.orangeBg("Orange!"),
+  color.greenBg("Green!"),
+  color.blueBg("Blue!"),
+  color.cyanBg("Cyan!"),
+  color.magentaBg("Magenta!"),
+  color.whiteBg('White!'),
+  color.blackBg('Black!')
+);
+```
+Result:
+
+![wad](/images/bg-output.png)
 
 # LICENSE
 
