@@ -17,14 +17,14 @@ const color = new Color.Instance();
 
 The colors currently available/included are:
 
-* <p style="color:red;">Red/Background</p>
-* <p style="color:orange;">Orange/Background</p> (actually yellow but looks like orange)
-* <p style="color:green;">Green/Background</p>
-* <p style="color:blue;">Blue/Background</p>
-* <p style="color:cyan;">Cyan/Background</p>
-* <p style="color:magenta;">Magenta/Background</p>
-* <p style="color:white;">White/Background</p>
-* <p style="color:black;">Black/Background</p>
+<p style="color:red;">Red/Background</p>
+<p style="color:orange;">Orange/Background</p> (actually yellow but looks like orange)
+<p style="color:green;">Green/Background</p>
+<p style="color:blue;">Blue/Background</p>
+<p style="color:cyan;">Cyan/Background</p>
+<p style="color:magenta;">Magenta/Background</p>
+<p style="color:white;">White/Background</p>
+<p style="color:black;">Black/Background</p>
 
 For font colors, just call the color as a method
 
