@@ -1,6 +1,6 @@
 <h1 align="center">@mrhotmadm/<strong>color</strong></h1>
 
-Easily add colors to messages in the console/terminal.
+<p align="center">Easily add colors to messages in the console/terminal.</p>
 
 # Installation
 
