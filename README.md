@@ -8,7 +8,7 @@ You can download this package by using the command; `npm i @mrhotmadm/sleep`
 
 # Usage
 
-All examples can be found in the **[examples directory.](https://github.com/mrhotmadm/color/tree/main/examples)**
+All examples can be found in the <a href="https://github.com/mrhotmadm/color/tree/main/examples" target="_blank">examples directory.</a>
 
 To get started, start by requiring the package and initializing a new class with the .Initialize() method.
 
