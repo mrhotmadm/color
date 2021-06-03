@@ -4,7 +4,7 @@
 
 # Installation
 
-You can download this package by using the command; `npm i @mrhotmadm/sleep`
+You can download this package by using the command; `npm i @mrhotmadm/color`
 
 # Usage
 
