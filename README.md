@@ -10,7 +10,7 @@ You can download this package by using the command; `npm i @mrhotmadm/color`
 
 All examples can be found in the <a href="https://github.com/mrhotmadm/color/tree/main/examples" target="_blank"><strong>examples directory.</strong></a>
 
-To get started, start by requiring the package and initializing a new class with the `.Initialize()` method.
+To get started, make a variable and require the package. Then, make a new instance of the package with the `.Initialize()` method.
 
 ```js
 const Color = require('@mrhotmadm/color');
@@ -43,7 +43,7 @@ Result:
 
 ![wad](/images/color-output.png)
 
-As for background colors, it's the same thing, just add `Bg` at the end of the method name.
+As for background colors, it's the same thing, just append `Bg` at the end of the method name.
 
 ```js
 const Color = require('@mrhotmadm/color');
